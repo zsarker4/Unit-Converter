@@ -1,0 +1,123 @@
+/* CSS HEX 
+--majorelle-blue: #6943FFff;
+--white: #FFFFFFff;
+--tropical-indigo: #B295FFff;
+--white-2: #FFFFFFff;
+--davys-gray: #4B4B4Bff;
+
+
+6943FF
+FFFFFF
+*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+body {
+    font-family: "Inter", "sans-serif";
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    display: block;
+}
+
+
+.top {
+    background-color: #6943FF;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: "Inter", "sans-serif";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+#title {
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+
+#inputNumber {
+    font-family: "Inter", "sans-serif";
+    background-color: #6943FF;
+    border: none;
+    padding: 20px;
+    border-radius: 14px;
+    outline: none;
+    color: white;
+    width: 180px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #B295FF;
+    text-align: center;
+    font-weight: bold;
+}   
+
+#convert-btn {
+    font-family: "Inter", "sans-serif";
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    color: #3D3D3D;
+    font-weight: normal;
+}
+
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F4F4F4;
+}
+
+
+#length, #volume, #mass{
+    color: #5A537B;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+}
+
+.box1, .box2, .box3 {
+    border: none;
+    height: 120px;
+    background-color: white;
+    margin: 20px;
+    color: #5A537B;
+    border-radius: 20px;
+    width: 600px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#math1, #math2, #math3 {
+    color: #5A537B;
+    font-size: 12px;
+    font-weight: normal;
+}
